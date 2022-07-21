@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container-1 col-6">
+      <div class="row">
+        <div class="calendar-main col-6">
+          <form id="search-form">
+            <input
+              class="input"
+              id="input"
+              type="text"
+              autocomplete="off"
+              placeholder="   Enter a city..."
+            />
+            <input class="submit" type="submit" value="search" />
+
+            <button id="current">Current</button>
+          </form>
+          <img class="calendar" src="src/media/calendar_1.png" alt="png" />
+        </div>
+        <div class="col-3">
+          <div class="main">
+            <h1>Sunday 11:21</h1>
+            <p class="humidity">Humidity: <span id="humidity">0</span>%</p>
+            <h2 id="city">Kyiv</h2>
+            <img class="hot" src="src/media/red.png" alt="png" />
+            <i class id="temp-1"> +12℃</i>
+          </div>
+        </div>
+        <div class="col-3">
+          <img class="rain" src="src/media/rain.png" alt="png" />
+        </div>
+        <div class="line"></div>
+      </div>
+      <div class="week">
+        <div class="row">
+          <div class="mon col-2">
+            <p class="day">Mon</p>
+
+            <img class="sun" src="src/media/sun.png" alt="png" />
+
+            <p class="temp">+09º</p>
+          </div>
+          <div class="col-2">
+            <p class="day">Tue</p>
+
+            <img class="sun" src="src/media/sunny_cloud.png" alt="png" />
+
+            <p class="temp">+04º</p>
+          </div>
+          <div class="col-2">
+            <p class="day">Wen</p>
+
+            <img class="sun" src="src/media/sun.png" alt="png" />
+
+            <p class="temp">+10º</p>
+          </div>
+          <div class="col-2">
+            <p class="day">Thu</p>
+
+            <img class="sun" src="src/media/cloud.png" alt="png" />
+
+            <p class="temp">+12º</p>
+          </div>
+          <div class="col-2">
+            <p class="day">Fri</p>
+
+            <img class="sun" src="src/media/rainy.png" alt="png" />
+
+            <p class="temp">+08º</p>
+          </div>
+          <div class="col-2">
+            <p class="day">Sat</p>
+            <img class="sun" src="src/media/sunny_cloud.png" alt="png" />
+            <p class="temp">+04º</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
