@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Fascinate", cursive, "Fascinate", cursive;
+  font-family: Noto Sans Japanese;
+  height: auto;
+  background-color: #d5eeff;
+  padding-top: 40px;
+  max-width: 100%;
+}
+
+h1,
+h2,
+.humidity {
+  color: white !important;
+  background-color: #9acffa;
+  font-size: 20px !important;
+}
+h3 {
+  color: #5a6275 !important;
+  font-size: 40px;
+  font-weight: 800 !important;
+  font-family: Noto Sans Japanese;
+}
+.input {
+  display: inline-block;
+  border-radius: 12px;
+  margin-left: 20px;
+  border: none;
+  box-shadow: #d5eeff;
+  width: 150px;
+  opacity: 0.7;
+  margin-top: 40px;
+}
+.submit {
+  display: inline-block;
+  background-color: #a5d4fb;
+  border-radius: 6px;
+  border: 1px solid #ddeffd;
+  margin-left: 0px;
+  color: white;
+}
+
+.container-1 {
+  margin: 0 auto;
+  background: #8ec9f9;
+
+  border-radius: 4px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  height: 450px;
+}
+
+.hot {
+  width: 10px !important;
+  padding-bottom: 15px;
+}
+
+.temp {
+  font-size: 30px;
+}
+.sun {
+  width: 50px;
+  height: 50px;
+}
+.week {
+  padding-top: 10px;
+}
+
+.mon {
+  display: inline;
+  text-align: center;
+}
+
+.rain {
+  position: relative;
+  max-width: 100%;
+  margin-top: 50px;
+}
+.main {
+  padding: 50px 0 0 30px;
+
+  text-align: left;
+}
+.calendar {
+  margin: 20px 0px 0px 50px;
+  width: 220px;
+  height: 175px;
+  padding-bottom: 30px;
+}
+.calendar-main {
+  border-right: 3px solid white;
+  height: 250px;
+}
+i {
+  color: white;
+  font-size: 35px;
+}
+.line {
+  border-bottom: 3px solid white;
+  padding: 0 10px 0 5px;
+}
+.temp {
+  color: white;
+}
+.day {
+  display: block;
+  margin: 0 auto;
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: Noto Sans Japanese;
+}
+p .day {
+  display: block;
+  margin: 0 auto;
+}
+.submit {
+  background-color: #a5d4fb;
+  border-radius: 6px;
+  border: 1px solid #ddeffd;
+}
+button {
+  display: inline-block;
+  background-color: #a5d4fb;
+  border-radius: 6px;
+  border: 1px solid #ddeffd;
+  margin-left: 30px;
+  color: white;
+}
+#search-form {
+  display: inline;
+  float: left;
+}
+#current {
+  background-color: #a5d4fb;
+  border-radius: 6px;
+  border: 1px solid #ddeffd;
+}
