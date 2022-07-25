@@ -10,10 +10,9 @@ body {
 }
 
 h1,
-h2,
 .humidity {
   color: white !important;
-  background-color: #9acffa;
+
   font-size: 20px !important;
 }
 h3 {
@@ -22,15 +21,19 @@ h3 {
   font-weight: 800 !important;
   font-family: Noto Sans Japanese;
 }
+p .humidity {
+  background-color: #9acffa;
+}
 .input {
   display: inline-block;
   border-radius: 12px;
   margin-left: 20px;
   border: none;
   box-shadow: #d5eeff;
-  width: 150px;
+  width: 250px;
   opacity: 0.7;
   margin-top: 40px;
+  outline: none;
 }
 .submit {
   display: inline-block;
@@ -41,13 +44,12 @@ h3 {
   color: white;
 }
 
-.container-1 {
+.container {
   margin: 0 auto;
   background: #8ec9f9;
-
   border-radius: 4px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-  height: 450px;
+  height: 400px;
 }
 
 .hot {
@@ -57,6 +59,7 @@ h3 {
 
 .temp {
   font-size: 30px;
+  color: white;
 }
 .sun {
   width: 50px;
@@ -77,9 +80,13 @@ h3 {
   margin-top: 50px;
 }
 .main {
-  padding: 50px 0 0 30px;
-
-  text-align: left;
+  display: inline-block;
+  width: 300px;
+  margin-top: 10px;
+}
+.cities {
+  display: inline;
+  text-align: center;
 }
 .calendar {
   margin: 20px 0px 0px 50px;
@@ -89,7 +96,6 @@ h3 {
 }
 .calendar-main {
   border-right: 3px solid white;
-  height: 250px;
 }
 i {
   color: white;
@@ -98,9 +104,6 @@ i {
 .line {
   border-bottom: 3px solid white;
   padding: 0 10px 0 5px;
-}
-.temp {
-  color: white;
 }
 .day {
   display: block;
@@ -136,6 +139,37 @@ button {
   border-radius: 6px;
   border: 1px solid #ddeffd;
 }
-.btn {
-  margin-left: 380px;
+small {
+  margin-left: 220px;
+  color: grey;
+}
+small a {
+  text-decoration: none;
+}
+small a:hover {
+  border: none;
+}
+#city {
+  margin-top: 50px;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  font-size: 42px;
+  color: white !important;
+}
+#temp-1 {
+  text-align: center;
+}
+li {
+  list-style-type: none;
+  color: white;
+  font-size: 20px;
+}
+.row {
+  display: table;
+}
+.main li {
+  list-style-type: none;
+  margin: 20px; /*расстояние между пунктами по высоте*/
 }

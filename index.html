@@ -31,9 +31,9 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   </head>
   <body>
-    <div class="container-1 col-6">
+    <div class="container col-5">
       <div class="row">
-        <div class="calendar-main col-6">
+        <div class="calendar-main col-7">
           <form id="search-form">
             <input
               class="input"
@@ -43,25 +43,33 @@
               placeholder="   Enter a city..."
             />
             <input class="submit" type="submit" value="search" />
-
-            <button id="current">Current</button>
           </form>
-          <img class="calendar" src="src/media/calendar_1.png" alt="png" />
+          <div class="col-3">
+            <div class="main">
+              <ul>
+                <li><h1>Sunday 11:21</h1></li>
+
+                <li>
+                  <p class="humidity">
+                    Humidity: <span id="humidity">0</span>%
+                  </p>
+                </li>
+                <li class="windy">Wind:<span class="wind">2</span>km/h</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="col-3">
-          <div class="main">
-            <h1>Sunday 11:21</h1>
-            <p class="humidity">Humidity: <span id="humidity">0</span>%</p>
+        <div class="cities col-2">
+          <div class="cities">
             <h2 id="city">Kyiv</h2>
-            <img class="hot" src="src/media/red.png" alt="png" />
+
             <i class id="temp-1"> +12℃</i>
           </div>
         </div>
-        <div class="col-3">
-          <img class="rain" src="src/media/rain.png" alt="png" />
-        </div>
-        <div class="line"></div>
+        <div class="col-2">Sun</div>
       </div>
+      <div class="line"></div>
+
       <div class="week">
         <div class="row">
           <div class="mon col-2">
@@ -107,10 +115,15 @@
         </div>
       </div>
     </div>
-    <p class="btn">
-      <a href="https://github.com/vickylucky/weather-app"> Open-source code</a>
-      by Viktoriia Bilokon
-    </p>
+    <small>
+   <div class="btn">
+        <a href="https://github.com/vickylucky/weather-app">
+          Open-source code</a
+        >
+        by Viktoriia Bilokon
+      </p></small>
+    </div>
+    
     <script src="src/index.js"></script>
   </body>
 </html>
