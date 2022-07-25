@@ -49,7 +49,7 @@ p .humidity {
   background: #8ec9f9;
   border-radius: 4px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-  height: 400px;
+  height: 275px;
 }
 
 .hot {
@@ -140,14 +140,10 @@ button {
   border: 1px solid #ddeffd;
 }
 small {
-  margin-left: 220px;
   color: grey;
 }
 small a {
   text-decoration: none;
-}
-small a:hover {
-  border: none;
 }
 #city {
   margin-top: 50px;
