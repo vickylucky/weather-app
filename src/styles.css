@@ -169,3 +169,7 @@ li {
   list-style-type: none;
   margin: 20px; /*расстояние между пунктами по высоте*/
 }
+.cities {
+  display: block;
+  margin: 0 auto;
+}
