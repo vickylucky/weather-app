@@ -24,6 +24,11 @@ h3 {
 p .humidity {
   background-color: #9acffa;
 }
+.pic-1 {
+  height: 50px;
+  width: 40px;
+  float: left;
+}
 .input {
   display: inline-block;
   border-radius: 12px;
@@ -49,7 +54,8 @@ p .humidity {
   background: #8ec9f9;
   border-radius: 4px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-  height: 275px;
+  height: 300px;
+  max-width: 600px;
 }
 
 .hot {
@@ -96,10 +102,11 @@ p .humidity {
 }
 .calendar-main {
   border-right: 3px solid white;
+  float: left;
 }
 i {
   color: white;
-  font-size: 35px;
+  font-size: 25px;
 }
 .line {
   border-bottom: 3px solid white;
@@ -160,14 +167,15 @@ h2 {
 li {
   list-style-type: none;
   color: white;
-  font-size: 20px;
+  font-size: 15px;
+  text-transform: capitalize;
 }
 .row {
   display: table;
 }
 .main li {
   list-style-type: none;
-  margin: 20px; /*расстояние между пунктами по высоте*/
+  margin: 10px; /*расстояние между пунктами по высоте*/
 }
 .cities {
   display: block;
