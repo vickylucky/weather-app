@@ -54,7 +54,7 @@ p .humidity {
   background: #8ec9f9;
   border-radius: 4px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-  height: 300px;
+  height: 425px;
   max-width: 600px;
 }
 
@@ -220,4 +220,15 @@ i .units {
 }
 .new {
   margin-bottom: 60px;
+}
+.btn {
+  margin-left: 450px;
+}
+.weather-forecast-temperatures {
+  color: white;
+  font-size: 20px;
+}
+.temp-min {
+  color: grey;
+  opacity: 0.5;
 }
