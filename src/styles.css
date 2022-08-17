@@ -71,7 +71,7 @@ p .humidity {
   width: 50px;
   height: 50px;
 }
-.week {
+.weather-forecast {
   padding-top: 10px;
 }
 
@@ -112,7 +112,7 @@ i {
   border-bottom: 3px solid white;
   padding: 0 10px 0 5px;
 }
-.day {
+.day .weather-forecast-date {
   display: block;
   margin: 0 auto;
   color: white;
@@ -120,7 +120,7 @@ i {
   font-weight: 400;
   font-family: Noto Sans Japanese;
 }
-p .day {
+p .day .weather-forecast-date {
   display: block;
   margin: 0 auto;
 }
@@ -228,7 +228,11 @@ i .units {
   color: white;
   font-size: 20px;
 }
-.temp-min {
+.weather-forecast-temperature-min {
   color: grey;
   opacity: 0.5;
+}
+.weather-forecast-date {
+  color: white;
+  font-size: 25px;
 }
